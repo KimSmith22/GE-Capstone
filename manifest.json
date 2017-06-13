@@ -1,0 +1,7 @@
+{
+  "name": "GE-Capstone",
+  "short_name": "GE-Capstone",
+  "description": "Carnival and Event Mapping tool",
+  "start_url": "/",
+  "display": "standalone"
+}

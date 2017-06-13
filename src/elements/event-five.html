@@ -1,0 +1,51 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="event-five">
+  <template>
+    <div class="w3-card-4 col-lg-8 col-lg-offset-2" style="width:95%;">
+      <header>
+        <h2>[[prop1]]</h2>
+      </header>
+
+      <div class="w3-container">
+        <p class="text-wrap"><img src="[[prop2]]" width= 15% align="left" alt="summer"
+          style="padding: 5px;">Date: [[prop3]] <br>Price: [[prop4]] <br>
+          <button type="button" class="btn btn-info btn-lg", onclick="window.open('url here', '_blank');">More Info</button>
+        </p>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class EventFive extends Polymer.Element {
+      static get is() { return 'event-five'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'GM River Days'
+          },
+          prop2: {
+            type: String,
+            value: 'img/riverdays.jpg'
+          },
+          prop3: {
+            type: String,
+            value: 'June 23 - 25, 2017'
+          },
+          prop4: {
+            type: String,
+            value: '$3 before 3pm and $5 after 3pm'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(EventFive.is, EventFive);
+  </script>
+
+</dom-module>

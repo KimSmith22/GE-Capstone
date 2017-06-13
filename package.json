@@ -1,0 +1,16 @@
+{
+    "name": "testing",
+    "title": "Capstone Project",
+    "version": "3.3.7",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "tsc": "tsc =p src -w",
+      "start": "live-server --open=src"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+    }
+}
