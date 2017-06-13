@@ -8,9 +8,11 @@ and music festivals.
 
 The current version of the application is built with the following technologies:
 Front End: HTML5, CSS3, Polymer2.0
-Database/API:
-Back End:
+API: JavaScript
+Back End: Restful API Service
 
+At this point there is discussion regarding the 'more info' button functionality; we will make a decision
+soon regarding whether or not to use a modal (pop-up window) or link to the official event website.
 Future updates of the application will utilize Google Map's location service to capture the user's location;
 the application will then allow the user to query the returned results by proximity to user's location
 as well as by price.  
