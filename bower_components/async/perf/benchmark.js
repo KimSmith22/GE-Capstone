@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 var _ = require("lodash");
 var Benchmark = require("benchmark");
 var exec = require("child_process").exec;

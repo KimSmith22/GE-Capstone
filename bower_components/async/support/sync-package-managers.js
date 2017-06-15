@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // This should probably be its own module but complaints about bower/etc.
 // support keep coming up and I'd rather just enable the workflow here for now
 // and figure out where this should live later. -- @beaugunderson

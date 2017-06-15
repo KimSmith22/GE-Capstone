@@ -1,19 +1,25 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/px-modal/px-modal.html">
+<link rel="import" href="../../bower_components/polymer/lib/mixins/gesture-event-listeners.html">
+
+
 
 <dom-module id="event-one">
   <template>
-    <div class="w3-card-4 col-lg-8 col-lg-offset-2" style="width:95%;">
-      <header>
-        <h2>[[prop1]]</h2>
-      </header>
-
-      <div class="w3-container">
-        <p class="text-wrap"><img src="[[prop2]]" width= 15% align="left" alt="summer"
-          style="padding: 5px;">Date: [[prop3]] <br>Price: [[prop4]] <br>
-          <button type="button" class="btn btn-info btn-lg", onclick="window.open('http://www.riverdays.com/', '_blank');">More Info</button>
-        </p>
+    <template is="dom-repeat" items="[[events]]" as="event"> <!--this line calls the array named events-->
+      <div class="w3-card-4 col-lg-8 col-lg-offset-2" style="width:95%;">
+        <div class="w3-container">
+          <p class="text-wrap"><img src="[[event.imgUrl]]" width= 15% align="left" alt="summer"
+            style="padding: 5px;"><h2>[[event.name]]</h2>Date: [[event.date]] <br>Price: [[event.price]] <br>
+            <button class='btn btn--primary modal-trigger' on-click="openModal" data-set$="[[event]]">More Info</button>
+            <!-- <button type="button" class="btn btn-info btn-lg", onclick="window.open('http://www.riverdays.com/', '_blank');">More Info</button> -->
+          </p>
+        </div>
       </div>
-    </div>
+    </template>
+
+    <px-modal id="EventModal" btn-modal-positive="Close" modal-heading="Event Name">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></px-modal>
   </template>
 
   <script>
@@ -21,30 +27,61 @@
      * @customElement
      * @polymer
      */
-    class EventOne extends Polymer.Element {
+    class EventOne extends Polymer.GestureEventListeners(Polymer.Element) {
       static get is() { return 'event-one'; }
       static get properties() {
         return {
-          prop1: {
-            type: String,
-            value: 'GM River Days'
+          selectedEvent: {
+            type: Object,
+            value: {}
           },
-          prop2: {
-            type: String,
-            value: 'img/riverdays.jpg'
-          },
-          prop3: {
-            type: String,
-            value: 'June 23 - 25, 2017'
-          },
-          prop4: {
-            type: String,
-            value: '$3 before 3pm and $5 after 3pm'
+          events:{
+            type: Array,
+            value: [
+              {
+                name: 'GM River Days',
+                imgUrl: 'img/riverdays.jpg',
+                date: 'June 23 - 25, 2017',
+                price :'$3 before 3pm and $5 after 3pm',
+                category: 'carnival'
+
+              },{
+                name: 'Arts Beats and Eats',
+                imgUrl: 'img/riverdays.jpg',
+                date: 'June 23 - 25, 2017',
+                price :'$3 before 3pm and $5 after 3pm'
+
+              },{
+                name: 'Dearborn Homecoming',
+                imgUrl: 'img/riverdays.jpg',
+                date: 'June 23 - 25, 2017',
+                price :'$3 before 3pm and $5 after 3pm'
+
+              },{
+                name: 'Ann Arbor Art Fair',
+                imgUrl: 'img/riverdays.jpg',
+                date: 'June 23 - 25, 2017',
+                price :'$3 before 3pm and $5 after 3pm'
+
+              },{
+                name: 'Dalley in the Alley',
+                imgUrl: 'img/riverdays.jpg',
+                date: 'June 23 - 25, 2017',
+                price :'$3 before 3pm and $5 after 3pm'
+
+              }
+            ]
           }
         };
       }
-    }
 
+
+              openModal(e){
+                console.log(JSON.parse(e.target.dataset.set));
+                this.set('selectedEvent', JSON.parse(e.target.dataset.set))
+                this.$.EventModal.modalButtonClicked();
+              };
+    }
     window.customElements.define(EventOne.is, EventOne);
   </script>
 

@@ -1,11 +1,11 @@
 body{
   height: 650px;
   width: 550px;
-  /*background-image: url("img/party.jpg");
+  background-image: url('/img/fun.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;*/
-  color: blue;
+  background-size: cover;
+  color: black;
   text-align: center;
 }
 .headline{
