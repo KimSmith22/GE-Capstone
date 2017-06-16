@@ -8,8 +8,8 @@ and music festivals.
 
 The current version of the application is built with the following technologies:
 Front End: HTML5, CSS3, Polymer2.0
-API: JavaScript
-Back End: Restful API Service
+Database: Mongo
+Back End: Node, Express
 
 At this point there is discussion regarding the 'more info' button functionality; we will make a decision
 soon regarding whether or not to use a modal (pop-up window) or link to the official event website.

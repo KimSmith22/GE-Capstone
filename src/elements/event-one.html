@@ -1,7 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/px-modal/px-modal.html">
 <link rel="import" href="../../bower_components/polymer/lib/mixins/gesture-event-listeners.html">
-
+<link rel="import" href="/paper-card/paper-card.html">
 
 
 <dom-module id="event-one">
@@ -9,17 +9,69 @@
     <template is="dom-repeat" items="[[events]]" as="event"> <!--this line calls the array named events-->
       <div class="w3-card-4 col-lg-8 col-lg-offset-2" style="width:95%;">
         <div class="w3-container">
-          <p class="text-wrap"><img src="[[event.imgUrl]]" width= 15% align="left" alt="summer"
-            style="padding: 5px;"><h2>[[event.name]]</h2>Date: [[event.date]] <br>Price: [[event.price]] <br>
-            <button class='btn btn--primary modal-trigger' on-click="openModal" data-set$="[[event]]">More Info</button>
+          <p class="text-wrap"><img src="[[event.imgUrl]]" width= 15% align="left" alt="carnival"
+            style="padding: 5px;"><b>[[event.name]]</b><br>Date: [[event.startDate]] to [[event.endDate]]<br>Price: [[event.price]] <br>City:  [[event.location]] <br>
+            <button class="btn btn--primary modal-trigger" style="background-color: lightgray;" on-click="openModal" data-set$="[[event]]">More Info</button>
             <!-- <button type="button" class="btn btn-info btn-lg", onclick="window.open('http://www.riverdays.com/', '_blank');">More Info</button> -->
           </p>
+          <br>
         </div>
       </div>
     </template>
 
     <px-modal id="EventModal" btn-modal-positive="Close" modal-heading="Event Name">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></px-modal>
+
+
+  <custom-style>
+    <style is="custom-style">
+      .cafe-header { @apply --paper-font-headline; }
+      .cafe-light { color: var(--paper-grey-600); }
+      .cafe-location {
+        float: right;
+        font-size: 15px;
+        vertical-align: middle;
+      }
+      .cafe-reserve { color: var(--google-blue-500); }
+      iron-icon.star {
+        --iron-icon-width: 16px;
+        --iron-icon-height: 16px;
+        color: var(--paper-amber-500);
+      }
+      iron-icon.star:last-of-type { color: var(--paper-grey-500); }
+    </style>
+  </custom-style>
+
+    <paper-card image="./donuts.png" alt="Donuts">
+      <div class="card-content">
+        <div class="cafe-header">Cafe Basilico
+          <div class="cafe-location cafe-light">
+            <iron-icon icon="communication:location-on"></iron-icon>
+            <span>250ft</span>
+          </div>
+        </div>
+        <div class="cafe-rating">
+          <iron-icon class="star" icon="star"></iron-icon>
+          <iron-icon class="star" icon="star"></iron-icon>
+          <iron-icon class="star" icon="star"></iron-icon>
+          <iron-icon class="star" icon="star"></iron-icon>
+          <iron-icon class="star" icon="star"></iron-icon>
+        </div>
+        <p>$・Italian, Cafe</p>
+        <p class="cafe-light">Small plates, salads &amp; sandwiches in an intimate setting with 12 indoor seats plus patio seating.</p>
+      </div>
+      <div class="card-actions">
+        <p>Tonight's availability</p>
+        <div class="horizontal justified">
+          <paper-icon-button icon="icons:event"></paper-icon-button>
+          <paper-button>5:30PM</paper-button>
+          <paper-button>7:30PM</paper-button>
+          <paper-button>9:00PM</paper-button>
+        </div>
+        <paper-button class="cafe-reserve">Reserve</paper-button>
+      </div>
+    </paper-card>
+
+     </px-modal>
   </template>
 
   <script>
@@ -39,35 +91,46 @@
             type: Array,
             value: [
               {
+                id: 'null',
                 name: 'GM River Days',
                 imgUrl: 'img/riverdays.jpg',
+                location: 'Detroit, MI',
+                startDate: 'June 23, 2017',
+                endDate: 'June 25, 2017',
+                price :'$3 before 3pm and $5 after 3pm',
+                category: 'carnival'
+
+              },{
+                name: 'GM River Days',
+                imgUrl: 'img/riverdays.jpg',
+                location: 'Detroit, MI',
                 date: 'June 23 - 25, 2017',
                 price :'$3 before 3pm and $5 after 3pm',
                 category: 'carnival'
 
               },{
-                name: 'Arts Beats and Eats',
+                name: 'GM River Days',
                 imgUrl: 'img/riverdays.jpg',
+                location: 'Detroit, MI',
                 date: 'June 23 - 25, 2017',
-                price :'$3 before 3pm and $5 after 3pm'
+                price :'$3 before 3pm and $5 after 3pm',
+                category: 'carnival'
 
               },{
-                name: 'Dearborn Homecoming',
+                name: 'GM River Days',
                 imgUrl: 'img/riverdays.jpg',
+                location: 'Detroit, MI',
                 date: 'June 23 - 25, 2017',
-                price :'$3 before 3pm and $5 after 3pm'
+                price :'$3 before 3pm and $5 after 3pm',
+                category: 'carnival'
 
               },{
-                name: 'Ann Arbor Art Fair',
+                name: 'GM River Days',
                 imgUrl: 'img/riverdays.jpg',
+                location: 'Detroit, MI',
                 date: 'June 23 - 25, 2017',
-                price :'$3 before 3pm and $5 after 3pm'
-
-              },{
-                name: 'Dalley in the Alley',
-                imgUrl: 'img/riverdays.jpg',
-                date: 'June 23 - 25, 2017',
-                price :'$3 before 3pm and $5 after 3pm'
+                price :'$3 before 3pm and $5 after 3pm',
+                category: 'carnival'
 
               }
             ]
