@@ -1,7 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
-<link rel="import" href="../../bower_components/px-modal/px-modal.html">
+<link rel="import" href="../../bower_components/paper-dialog/paper-dialog.html">
 <link rel="import" href="../../bower_components/polymer/lib/mixins/gesture-event-listeners.html">
-<link rel="import" href="/paper-card/paper-card.html">
+
 
 
 <dom-module id="event-one">
@@ -19,9 +19,16 @@
       </div>
     </template>
 
-    <px-modal id="EventModal" btn-modal-positive="Close" modal-heading="GM River Days"
-      modal-content="some content here">
-     </px-modal>
+
+  <paper-dialog id="EventModal" entry-animation="scale-up-animation" exit-animation="fade-out-animation" with-backdrop>
+    <img src="img/riverdays.jpg" width="50%" alt="river days">
+    <h2>Dialog Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum....<a href="https://http://www.riverdays.com/"></a></p>
+      <paper-button dialog-dismiss style="background-color: lightgray; border-radius: 12px; ">Cancel</paper-button>
+
+  </paper-dialog>
+
   </template>
 
   <script>
@@ -92,7 +99,7 @@
               openModal(e){
                 console.log(JSON.parse(e.target.dataset.set));
                 this.set('selectedEvent', JSON.parse(e.target.dataset.set))
-                this.$.EventModal.modalButtonClicked();
+                this.$.EventModal.open();
               };
     }
     window.customElements.define(EventOne.is, EventOne);
