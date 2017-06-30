@@ -1,0 +1,551 @@
+
+ {
+
+   "EventID": "EVT-1000",
+   "EventName": "Ann Arbor Summer Festival",
+   "EventLocation": "Downtown Ann Arbor, Ann Arbor, MI",
+   "StartDate": "06/09/2017",
+   "EndDate": "07/02/2017",
+   "EventPrice": "Varies",
+   "Category": "Festival"
+ }
+ ,
+ {
+
+   "EventID": "EVT-1001",
+   "EventName": "Bay-Rama FishFly Festival",
+   "EventLocation": "New Baltimore Recreation, New Baltimore, MI",
+   "StartDate": "06/21/2017",
+   "EndDate": "06/25/2017",
+   "EventPrice": "Varies",
+   "Category": "Festival"
+ }
+ ,
+
+ {
+
+   "EventID": "EVT-1002",
+   "EventName": "Michigan Challenge Ballonfest",
+   "EventLocation": "Howell High School Complex, Howell, MI",
+   "StartDate": "06/23/2017",
+   "EndDate": "06/25/2017",
+   "EventPrice": "Varies ",
+   "Category": "Festival"
+ }
+
+ {
+
+   "EventID": "EVT-1003",
+   "EventName": "Delta Rocks! Family Festival",
+   "EventLocation": "Shark Park, Lansing, MI",
+   "StartDate": "06/24/2017",
+   "EndDate": "06/24/2017",
+   "EventPrice": "Free",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1004",
+   "EventName": "Hell-O Summer Festival",
+   "EventLocation": "4045 Patterson Lake Road, Hell, MI",
+   "StartDate": "06/24/2017",
+   "EndDate": "06/24/2017",
+   "EventPrice": "Free",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1005",
+   "EventName": "Summer Solstice Jazz Fesitval",
+   "EventLocation": "410 Abbot Road, East Lansing, MI",
+   "StartDate": "06/23/2017",
+   "EndDate": "06/24/2017",
+   "EventPrice": "Free",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1006",
+   "EventName": "Stars and Stripes Festivial ",
+   "EventLocation": "Suburban Collection Showcase, Novi, MI",
+   "StartDate": "06/29/2017",
+   "EndDate": "07/2/2017",
+   "EventPrice": "$10-50",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1007",
+   "EventName": "Camaro Superfest",
+   "EventLocation": "Riverside Park, Ypsilanti, MI",
+   "StartDate": "06/30/2017",
+   "EndDate": "07/2/2017",
+   "EventPrice": "Free",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1008",
+   "EventName": "Michigan Elvisfest 2017",
+   "EventLocation": "Depot Town, Ypsilanti, MI",
+   "StartDate": "07/7/2017",
+   "EndDate": "07/8/2017",
+   "EventPrice": "$18-40",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1009",
+   "EventName": "Manchester Community Fair",
+   "EventLocation": "Downtown Manchester, Manchester, MI",
+   "StartDate": "07/11/2017",
+   "EndDate": "07/15/2017",
+   "EventPrice": "Fri: $5-25 ",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1010",
+   "EventName": "Saline Celtic Festival",
+   "EventLocation": "Millpark Pond, Saline, MI",
+   "StartDate": "07/14/2017",
+   "EndDate": "07/15/2017",
+   "EventPrice": "$5-80",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1011",
+   "EventName": "Ann Arbor Art Fair",
+   "EventLocation": "Downtown Ann Arbor, Ann Arbor, MI",
+   "StartDate": "07/20/2017",
+   "EndDate": "07/23/2017",
+   "EventPrice": "Free",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1012",
+   "EventName": "20th Annual Michigan Summer Beer Festival",
+   "EventLocation": "Riverside Park - Historic Depot Town, Ypsilanti , MI",
+   "StartDate": "07/21/2017",
+   "EndDate": "07/22/2017",
+   "EventPrice": "Varies",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1013",
+   "EventName": "Faster Horses Festival",
+   "EventLocation": "Michigan International Speedway 12626 US 12, Brooklyn, MI",
+   "StartDate": "07/21/2017",
+   "EndDate": "07/23/2017",
+   "EventPrice": "Varies",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1014",
+   "EventName": "Maker Faire Detroit",
+   "EventLocation": "The Henry Ford, Dearborn, MI",
+   "StartDate": "07/29/20177",
+   "EndDate": "07/30/2017",
+   "EventPrice": "$19-50",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1015",
+   "EventName": "Millford Memories Summer Fest",
+   "EventLocation": "317 Union St, Milford, MI ",
+   "StartDate": "08/11/2017",
+   "EndDate": "08/13/2017",
+   "EventPrice": "Varies",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1016",
+   "EventName": "Woodward Dream Cruise",
+   "EventLocation": "Woodward Avenue from Ferndale to Pontiac, Royal Oak, MI",
+   "StartDate": "08/19/2017",
+   "EndDate": "08/19/2017",
+   "EventPrice": "Free",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1017",
+   "EventName": "Michigan Renaissance Festival",
+   "EventLocation": "12600 Dixie Highway, Holly, MI ",
+   "StartDate": "08/19/2017",
+   "EndDate": "10/1/2017",
+   "EventPrice": "$11-100",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-1018",
+   "EventName": " 'Taste of Greece' Festival",
+   "EventLocation": "Nativity of the Virgin Mary Greek Orthodox Church, Plymouth, MI",
+   "StartDate": "08/25/2017",
+   "EndDate": "08/27/2017",
+   "EventPrice": "$2",
+   "Category": "Festival"
+ },
+
+ {
+
+   "EventID": "EVT-2000",
+   "EventName": "Michigan Fun Fest",
+   "EventLocation": "18100 Merriman Rd, Livonia, MI",
+   "StartDate": "06/15/2017",
+   "EndDate": "06/18/2017",
+   "EventPrice": "Varies",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2001",
+   "EventName": "Livonia Spree",
+   "EventLocation": "33000 Civic Center Dr., Livonia, MI",
+   "StartDate": "06/20/2017",
+   "EndDate": "06/25/2017",
+   "EventPrice": "Free",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2002",
+   "EventName": "Seymour Celebration",
+   "EventLocation": "Seymour Lake Park, Oxford Twp, MI",
+   "StartDate": "07/07/2017",
+   "EndDate": "07/08/2017",
+   "EventPrice": "$5-20",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2003",
+   "EventName": "Oakland County Fair",
+   "EventLocation": "Springfield Oaks County Park, Davisburg, MI",
+   "StartDate": "07/07/2017",
+   "EndDate": "07/16/2017",
+   "EventPrice": "$5-12",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2004",
+   "EventName": "Festival of Hope Southfield",
+   "EventLocation": "Hope United Methodist Church  Southfield, MI",
+   "StartDate": "07/13/2017",
+   "EndDate": "07/16/2017",
+   "EventPrice": "Free",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2005",
+   "EventName": "St Clair County 4-H Youth Fair",
+   "EventLocation": "Goodells County Park , Goodells, MI",
+   "StartDate": "07/17/2017",
+   "EndDate": "07/22/2017",
+   "EventPrice": "$17-70",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2006",
+   "EventName": "Sterlingfest Art & Music Fair",
+   "EventLocation": "40555 Utica Road, Sterling Heights, MI",
+   "StartDate": "07/27/2017",
+   "EndDate": "07/29/2017",
+   "EventPrice": "$18-50",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2007",
+   "EventName": "Monroe County Fair",
+   "EventLocation": "Monroe County Fairgrounds, Monroe, MI",
+   "StartDate": "07/30/2017",
+   "EndDate": "08/05/2017",
+   "EventPrice": "$3-6",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2008",
+   "EventName": "Wayne County Fair ",
+   "EventLocation": "10871 Quirk Rd, Belleville, MI ",
+   "StartDate": "08/07/2017",
+   "EndDate": "08/12/2017",
+   "EventPrice": "Varies",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2009",
+   "EventName": "Chelsea Community Fair",
+   "EventLocation": "20501 W Old US Hwy 12, Chelsea, MI",
+   "StartDate": "08/22/2017",
+   "EndDate": "08/26/2017",
+   "EventPrice": "$5-20",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2010",
+   "EventName": "Saline Community Fair",
+   "EventLocation": "5055 Ann Arbor Saline Rd., Ann Arbor, MI",
+   "StartDate": "08/30/2017",
+   "EndDate": "09/04/2017",
+   "EventPrice": "$7",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2011",
+   "EventName": "Michigan State Fair",
+   "EventLocation": "Suburban Collection Showplace, Novi, MI",
+   "StartDate": "08/31/2017",
+   "EndDate": "09/04/2017",
+   "EventPrice": "$6-30",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2012",
+   "EventName": "St. Linus Parish Festival",
+   "EventLocation": "6466 Evangeline, Dearborn Heights, MI",
+   "StartDate": "09/08/2017",
+   "EndDate": "09/10/2017",
+   "EventPrice": "Free",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2013",
+   "EventName": "St. Alfred's Festival",
+   "EventLocation": "24175 Baske St, Taylor, MI",
+   "StartDate": "09/08/2017",
+   "EndDate": "09/10/2017",
+   "EventPrice": "Free",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-2014",
+   "EventName": "St. Thomas the Apostle Parish Family Festival",
+   "EventLocation": "1500 Beechwood St., Garden City, MI",
+   "StartDate": "09/15/2017",
+   "EndDate": "09/17/2017",
+   "EventPrice": "Free",
+   "Category": "Carnival"
+ },
+
+ {
+
+   "EventID": "EVT-3000",
+   "EventName": "Cruise In June",
+   "EventLocation": "Downtown Jackson, Jackson, MI",
+   "StartDate": "06/23/2017",
+   "EndDate": "06/23/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3001",
+   "EventName": "Ford Fireworks Detroit",
+   "EventLocation": "9500 Mt. Elliott, Studio A, Detroit, MI",
+   "StartDate": "06/26/2017",
+   "EndDate": "06/26/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3002",
+   "EventName": "Salute to America",
+   "EventLocation": "20900 Oakwood Blvd., Dearborn, MI",
+   "StartDate": "06/30/2017",
+   "EndDate": "07/03/2017",
+   "EventPrice": "$17-30",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3003",
+   "EventName": "Kite Flying",
+   "EventLocation": "1801 Atwater Street, Detroit, MI",
+   "StartDate": "07/08/2017",
+   "EndDate": "07/08/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3004",
+   "EventName": "Mammals Week",
+   "EventLocation": "1801 Atwater Street, Detroit, MI",
+   "StartDate": "07/12/2017",
+   "EndDate": "07/14/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3005",
+   "EventName": "Hike Milliken State Park",
+   "EventLocation": "1900 Atwater Street, Detroit, MI",
+   "StartDate": "07/14/2017",
+   "EndDate": "07/14/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3006",
+   "EventName": "Hot Air Jubilee",
+   "EventLocation": "3225 Fourth St., Jackson, MI",
+   "StartDate": "07/14/2017",
+   "EndDate": "07/16/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3007",
+   "EventName": "Rolling Sculpture Car Show",
+   "EventLocation": "Main Street, Ann Arbor, MI",
+   "StartDate": "07/14/2017",
+   "EndDate": "07/14/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3008",
+   "EventName": "Flint's Be A Tourist In Your Home Town",
+   "EventLocation": "519 S. Saginaw Street, Flint, MI",
+   "StartDate": "07/15/2017",
+   "EndDate": "07/15/2017",
+   "EventPrice": "$1",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3009",
+   "EventName": "15th Annual HotWorks.org Orchard Lake Fine Art Show",
+   "EventLocation": "4925 Orchard Lake Rd,West Bloomfield, MI",
+   "StartDate": "07/29/2017",
+   "EndDate": "07/30/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3010",
+   "EventName": "Rochester Homecoming Fireworks",
+   "EventLocation": "400 Sixth St, Rochester, MI",
+   "StartDate": "08/12/2017",
+   "EndDate": "08/12/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3011",
+   "EventName": "National Aviation Day",
+   "EventLocation": "20900 Oakwood Boulvard, Dearborn, MI",
+   "StartDate": "08/19/2017",
+   "EndDate": "08/19/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3012",
+   "EventName": "Howell Melon Festival Classic Car Show",
+   "EventLocation": " Barnard Street, Howell, MI",
+   "StartDate": "08/19/2017",
+   "EndDate": "08/19/2017",
+   "EventPrice": "$10-15",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3013",
+   "EventName": "Cruise In August",
+   "EventLocation": "Downtown Jackson, Jackson, MI",
+   "StartDate": "08/25/2017",
+   "EndDate": "08/25/2017",
+   "EventPrice": "Free",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3014",
+   "EventName": "Wine Trail Chili Challenge",
+   "EventLocation": "4724 Walz Road, Jackson, MI",
+   "StartDate": "08/26/2017",
+   "EndDate": "08/27/2017",
+   "EventPrice": "$5",
+   "Category": "Other"
+ },
+
+ {
+
+   "EventID": "EVT-3015",
+   "EventName": "38th Annual Detroit Jazz Festival",
+   "EventLocation": "Downtown Detroit, MI",
+   "StartDate": "09/01/2017",
+   "EndDate": "09/04/2017",
+   "EventPrice": "$10-20",
+   "Category": "Other"
+ },
